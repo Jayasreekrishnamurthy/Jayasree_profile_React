@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, CardContainer } from './certificatestyle'
+import { Container, Wrapper, Title, CardContainer, Desc } from './certificatestyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
@@ -11,6 +11,9 @@ const Certificate = ({openModal,setOpenModal}) => {
       <Container id="projects">
         <Wrapper>
           <Title>Certification</Title>
+          <Desc>
+          Attained certification in programming and technology courses, reflecting a versatile skill set and a commitment to continuous learning in the dynamic tech landscape. 
+        </Desc>
           {/* <ToggleButtonGroup >
             {toggle === 'all' ?
               <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>

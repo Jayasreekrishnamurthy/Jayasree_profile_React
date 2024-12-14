@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav>
-    <NavLink to="/" className="title">
+    <NavLink to="" className="title">
     <h1 className='na1_vimg'>jayasreek2910@gmail.com</h1>
     <h1 className='nav2_img'>9789191827</h1>
     </NavLink>
@@ -20,19 +20,19 @@ const Navbar = () => {
     </div>
     <ul className={menuOpen ? "open" : ""}>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/Home">About</NavLink>
       </li>
       <li>
-        <NavLink to="./Skills">Skills</NavLink>
+        <NavLink href='#skills'>Skills</NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Education</NavLink>
+        <NavLink to="#education">Education</NavLink>
       </li>
       <li>
-        <NavLink to="/services">Experience</NavLink>
+        <NavLink to="#experience">Experience</NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Follow Me</NavLink>
+        <NavLink to="#">Follow Me</NavLink>
       </li>
     </ul>
   </nav>

@@ -23,6 +23,7 @@ gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
 }
+
 `
 
 export const Title = styled.div`
@@ -54,6 +55,7 @@ const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+
 `
 
 const Skill = styled.div`
@@ -64,6 +66,7 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  transition: all 0.5s ease-in-out;
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -71,6 +74,10 @@ const Skill = styled.div`
   @media (max-width: 500px) {
     max-width: 330px;
     padding: 10px 36px;
+  }
+  &:hover {
+    transform: translateY(-10px);
+    filter: brightness(1.1);
   }
 
 

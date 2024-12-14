@@ -6,6 +6,7 @@ import Skills from "./components/Skills"
 import Experience from "./components/Exeperience/Experience";
 import Education from "./components/Education/index"
 import Certificate from "./components/Certificate/certificate"
+import {Footer} from "./components/Footer/Footer"
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
    <Skills/>
    <Experience/>
    <Certificate openModal={openModal} setOpenModal={setOpenModal}/>
-   {/* <Education/> */}
+   <Education/>
+   <Footer/>
    </div>
    
   );

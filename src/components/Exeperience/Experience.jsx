@@ -77,9 +77,9 @@ const TimelineSection = styled.div`
 
 const Experience = () => {
   return (
-    <Container id="experience">
+    <Container>
     <Wrapper>
-        <Title>Experience</Title>
+        <Title id="experience">Experience</Title>
         <Desc>
             My work experience as a software Developer and working on different companies and projects.
         </Desc>

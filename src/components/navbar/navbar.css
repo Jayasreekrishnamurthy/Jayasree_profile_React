@@ -45,8 +45,9 @@ nav ul li a {
   border-radius: 0.5rem;
 }
 
-nav ul li a:not(.active):hover {
+nav ul li a:hover {
   background-color:#a6a3ac ;
+  text-decoration: none;
 }
 
 nav .menu {
